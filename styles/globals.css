@@ -1,16 +1,37 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+.myBG {
+  height: 100vh;
+  background: url("../assets/images/1.jpeg");
+}
+.htmlAll {
+  background-color: #f6ddb9;
+}
+.intro {
+  height: 300px;
+  /* background: tomato; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+  text-shadow: 2px 2px black;
+  letter-spacing: 3px;
+  color: white;
 }
 
-* {
-  box-sizing: border-box;
+.trending {
+  height: auto;
+  /* background: url("../assets/images/download.jpg"); */
+  /* background: url("../assets/images/5eeaba726cd14.jpg"); */
+  /* background: url("../assets/images/download.jpg"); */
 }
+.movieImage {
+  height: auto;
+  background: transparent;
+}
+/* .movieWrapper {
+  background: url("../assets/images/2.jpg");
+} */
